@@ -1,8 +1,10 @@
 const express = require('express');
 const app = express();
 
+// route handler
 app.get('/', (req, res) => {
-    res.send({ hi: 'there'});
+    res.send({ Hello: 'world!'});
 });
+
 
 app.listen(5000);
